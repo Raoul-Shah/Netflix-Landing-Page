@@ -40,13 +40,20 @@
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic harum magnam vero rerum excepturi,
                 corporis laborum aut ad, libero necessitatibus voluptates possimus ratione quidem? Eos impedit eum ut
-                cum aperiam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur facere temporibus, numquam officiis earum.
-                </p>
-                <div class="buttons">
-                    <a href="#"><i class="fas fa-play"></i>Play</a>
-                    <a href="#"><i class="fas fa-plus"></i>My List</a>
-                </div>
+                cum aperiam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur facere
+                temporibus, numquam officiis earum.
+            </p>
+            <div class="buttons">
+                <a href="#"><i class="fas fa-play"></i>Play</a>
+                <a href="#"><i class="fas fa-plus"></i>My List</a>
+            </div>
         </div>
+        <a class="play" onclick="toggleVideo();"><img src="./img/play.png">Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="./img/trailer.mp4" controls="true"></video>
+        <img src="./img/close.png" class="close" onclick="toggleVideo();">
     </div>
 
     <script src="./app.js"></script>
